@@ -14,7 +14,7 @@ public class Test {
             JsonValue value = Json.parse(file);
             System.out.println(value.toString());
         } catch (Exception e) {
-            System.out.println(String.format("Oh no! Something went wrong: %s\n", e.getMessage()));
+            System.out.println(String.format("Oh no!!!!!!! Something went wrong: %s\n", e.getMessage()));
         }
     }
 }
